@@ -10,7 +10,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(45deg, #21ff55, #97c69c); /* Gradient background */
+  background: linear-gradient(45deg, #7e21ff, #ae97c6); /* Gradient background */
   background-size: 400% 400%;
   animation: gradientAnimation 15s ease infinite; /* Animation for gradient background */
   color: #ffffff; /* Default text color for better readability */
@@ -37,7 +37,7 @@ html, body {
 }
 
 a {
-  color: #21ff64; /* Primary color for links */
+  color: #7e21ff; /* Primary color for links */
   text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ a:hover {
 
 /* Button styling */
 button {
-  background-color: #21ff60; /* Primary button color */
+  background-color: #7e21ff; /* Primary button color */
   color: #ffffff; /* Button text color */
   border: none;
   padding: 0.5em 1em;
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: #16c44a; /* Darker shade for hover effect */
+  background-color: #5a16c4; /* Darker shade for hover effect */
 }
 
 /* Typography */
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 input, textarea {
   border-radius: 5px;
-  border: 1px solid #97c6a4; /* Light border for input fields */
+  border: 1px solid #ae97c6; /* Light border for input fields */
   padding: 0.5em;
   background: #121212; /* Dark background for input fields */
   color: #ffffff; /* Text color for input fields */
@@ -76,7 +76,7 @@ input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: #21ff4d; /* Highlight border color on focus */
+  border-color: #7e21ff; /* Highlight border color on focus */
 }
 
 .container {

@@ -1,113 +1,107 @@
-# Inventory Manager
+Inventory Management System
+Overview
+This is a modern, minimalist inventory management system built using Next.js and Firebase. It features a sleek, dark-themed UI, responsive design, and real-time inventory tracking. Users can manage their inventory, add and remove items, and search for items efficiently. The application supports dark mode based on system settings and includes a visually appealing background animation.
 
-An intuitive and feature-rich Inventory Management System built with **Next.js** and **Firebase**. This application allows businesses to track inventory, monitor stock levels, and gain insights to streamline operations. Designed with scalability and modern UI/UX principles in mind, the application provides a robust platform for managing inventory efficiently.
+Features
+User Authentication: Secure user login and session management.
+Inventory Management: Add, remove, and search for items.
+Responsive Design: Optimized for both desktop and mobile devices.
+Dark Mode: Automatically adjusts to system dark mode settings.
+Modern UI: Minimalist design with a focus on usability and aesthetics.
+Real-time Updates: Syncs with Firebase for live inventory tracking.
+Technologies
+Next.js: Framework for server-side rendering and static site generation.
+Firebase: Backend service for authentication and real-time database.
+Material-UI: UI framework for React with a modern design.
+React Hooks: For state management and side effects.
+CSS: For custom styling and theming.
+Installation
+Prerequisites
+Node.js (v14 or later)
+npm or yarn
+Firebase project setup
+Setup
+Clone the Repository
+bash
+Copy code
+git clone https://github.com/your-username/inventory-management-system.git
+cd inventory-management-system
+Install Dependencies
+bash
+Copy code
+npm install
+or
 
----
+bash
+Copy code
+yarn install
+Set Up Firebase
+Create a Firebase project and configure Firestore and Authentication.
+Add your Firebase configuration to a .env.local file in the root directory:
+env
+Copy code
+NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
+NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+Run the Development Server
+bash
+Copy code
+npm run dev
+or
 
-## Features
+bash
+Copy code
+yarn dev
+The application will be available at http://localhost:3000.
 
-- **User Authentication**: Secure user authentication powered by Firebase Authentication.
-- **Real-time Database**: Track and update inventory in real-time using Firebase Realtime Database or Firestore.
-- **Inventory Insights**: Get insights into stock levels, trends, and more.
-- **Responsive Design**: Fully responsive interface using Material-UI, optimized for both desktop and mobile.
-- **Advanced Search and Filter**: Quickly find items using powerful search and filter capabilities.
-- **AI Integration** *(Placeholder)*: Placeholder for integrating AI features for predictive inventory management.
+Usage
+Authenticate: Log in with your credentials or register a new account.
+Manage Inventory:
+Add New Item: Click the "Add New Item" button and enter the item name.
+Remove Item: Click the "-" icon next to the item you want to remove.
+Search Items: Use the search bar to filter inventory items.
+Contributing
+Fork the Repository
+Create a Feature Branch
+bash
+Copy code
+git checkout -b feature/your-feature
+Commit Your Changes
+bash
+Copy code
+git commit -am 'Add some feature'
+Push to the Branch
+bash
+Copy code
+git push origin feature/your-feature
+Open a Pull Request
+Go to the repository on GitHub and create a pull request from your feature branch.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
----
+Contact
+Author: Saad Ahmad Sabri
+GitHub: github.com/your-username
+About
+This project is a pantry management application that allows users to keep track of pantry items by adding or removing items and updating their quantities. The project uses Next.js as the frontend framework, Material UI for the UI components, and Firebase as the backend service.
 
-## Tech Stack
-
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Backend Services**: [Firebase](https://firebase.google.com/) (Authentication, Firestore/Realtime Database)
-- **UI Library**: [Material-UI](https://mui.com/)
-- **Deployment**: [Vercel](https://vercel.com/)
-
----
-
-## Installation
-
-### Prerequisites
-
-1. Node.js installed on your system.
-2. Firebase account and project set up.
-3. Vercel account (optional for deployment).
-
-### Steps
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/inventory-manager.git
-   cd inventory-manager
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Set Up Firebase**
-   - Go to [Firebase Console](https://console.firebase.google.com/).
-   - Create a new project and enable Authentication and Firestore/Realtime Database.
-   - Copy your Firebase config values and create a `.env.local` file:
-     ```env
-     NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
-     NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain
-     NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
-     NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-     NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
-     NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
-     ```
-
-4. **Run the Development Server**
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
-
----
-
-## Deployment
-
-1. **Deploy on Vercel**
-   - Push your repository to GitHub.
-   - Connect your repository to [Vercel](https://vercel.com/).
-   - Set up environment variables in Vercel with the same keys as in `.env.local`.
-   - Deploy the application.
-
----
-
-## Usage
-
-1. **Sign Up/Log In**
-   - Create an account or log in using Firebase Authentication.
-
-2. **Add Inventory Items**
-   - Use the "Add Item" button to add new inventory entries with details like name, quantity, price, etc.
-
-3. **Track and Manage Inventory**
-   - View all inventory in the dashboard.
-   - Edit or delete items as needed.
-
-4. **Analyze Inventory Insights**
-   - Gain insights from analytics on the dashboard.
-
----
-
-## Future Enhancements
-
-- **AI-Powered Features**: Predict inventory requirements using AI models.
-- **Multi-user Support**: Role-based access for team collaboration.
-- **Export/Import Functionality**: Allow exporting inventory data as CSV/Excel files.
-- **Mobile App**: Build a mobile app using React Native.
-
----
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and open a pull request.
-
----
+Resources
+Readme
+Activity
+Stats
+Stars: 1 star
+Watchers: 1 watching
+Forks: 0 forks
+Releases
+No releases published
+Packages
+No packages published
+Deployments
+Production – inventory-management-system-ckhm 2 hours ago
+Production – inventory-management-system
+Languages
+JavaScript: 91.3%
+CSS: 8.7%

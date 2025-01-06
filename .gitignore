@@ -1,32 +1,12 @@
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Node modules
+/node_modules/
 
-# macOS
-.DS_Store
-
-# Firebase
-firebase-debug.log
-
-# Environment Variables
+# Environment variables
 .env.local
-.env.*
-.env
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Next.js
-.next/
-out/
-
-# Logs
-logs/
-*.log
-
-# Vercel
-.vercel/
-
-# Miscellaneous
-coverage/
-.vscode/
-.idea/
+# Firebase configuration files
+firebase.json
+.firebaserc
